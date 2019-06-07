@@ -17,3 +17,4 @@ steps:
     echo Add other tasks to build, test, and deploy your project.
     echo See https://aka.ms/yaml
   displayName: 'Run a multi-line script'
+  g++ -std=c++11 -l/usr/include/boost/asio -l/usr/include/boost -o binary.out.main.cpp connection.cpp connection_manager.cpp mime_types.cpp reply.cpp request_handler.cp request_parser.cpp server.cpp lboost_system -ilboost_thread - Ipthread
